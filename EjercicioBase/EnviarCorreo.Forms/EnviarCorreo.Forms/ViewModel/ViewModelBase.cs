@@ -13,8 +13,8 @@ namespace EnviarCorreo.Forms.ViewModel
             IdentificadorCommand = new Command(async() =>
             {
                 //Este é o lugar onde você colocar o seu endereço de e-mail
-                string direccionCorreo = "maratona@microsoft.com";
-                string evento = "Acompanhando a Maratona da cidade de [ESCREVA O NOME DA SUA CIDADE]";
+                string direccionCorreo = "jeison.desenvolvimento@gmail.com";
+                string evento = "Acompanhando a Maratona da cidade de FRANCO DA ROCHA";
 
                 ServiceHelper servicioApp = new ServiceHelper();
                 await servicioApp.InsertarEntidad(direccionCorreo, evento);
